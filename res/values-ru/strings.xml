@@ -1,0 +1,132 @@
+<resources>
+
+	<!-- Do not translate these strings -->
+	<string name="app_name">Emojidom</string>
+	<string name="title_activity_main">Emojidom</string>
+	<string name="clear">Clear message</string>
+	<string name="flurry_private_key">MKSVW66KNGW497WNSXN9</string>
+	<string name="xml_file_directory">/Android/data/com.plantpurple.emojidom/</string>
+	<string name="xml_file_mine_directory">mine/</string>
+	<string name="font_name">appleberry_with_cyrillic</string>
+	
+	<!-- __________________________ THIS CAN BE TRANSLATED __________________________ -->
+	
+	<!-- Tab names -->
+	<string name="tab_keyboard">KEYBOARD</string>
+	<string name="tab_mine">MINE</string>
+	<string name="tab_cool">КЛЁВЫЕ</string>
+	<string name="tab_classic">КЛАССИКА</string>
+	<string name="tab_more">MORE</string>
+	
+	<string name="cool_tab_fragment_favourites">Любимые</string>
+	
+	<string name="more_details">Мне нравятся - хочу!</string>
+	
+	<!-- Cool titles -->
+	<string name="cool_tab_fragment_happy">Весёлые</string>
+	<string name="cool_tab_fragment_romantic">Любовь-морковь</string>
+	<string name="cool_tab_fragment_angry">Злющие</string>
+	<string name="cool_tab_fragment_expressions">Без слов</string>
+	<string name="cool_tab_fragment_descriptive">В чём дело?</string>
+	<string name="cool_tab_fragment_clothes">Одежда</string>
+	<string name="cool_tab_fragment_looks">Внешность</string>
+	<string name="cool_tab_fragment_busy">Не мешай!</string>
+	<string name="cool_tab_fragment_leisure">Отдых</string>
+	<string name="cool_tab_fragment_food">Еда</string>
+	<string name="cool_tab_fragment_sport">Спорт</string>
+	<string name="cool_tab_fragment_places">Ты где?</string>
+	<string name="cool_tab_fragment_naughty">Не совсем приличные</string>
+	<string name="cool_tab_fragment_naughty_black">Не приличные - Африка</string>
+	<string name="cool_tab_fragment_naughty_asian">Не приличные - Азия</string>
+	<string name="cool_tab_fragment_holidays">Новый Год и Хеллоуин</string>
+	<string name="cool_tab_fragment_nationalities">Со всего мира</string>
+	
+	<!-- Classic titles -->
+	<string name="classic_tab_fragment_smileys">Смайлики</string>
+	<string name="classic_tab_fragment_romantic">Любовь-морковь</string>
+	<string name="classic_tab_fragment_gestures">Жесты</string>
+	<string name="classic_tab_fragment_food">Еда</string>
+	<string name="classic_tab_fragment_sports">Хобби</string>
+	<string name="classic_tab_fragment_communication">Общение</string>
+	<string name="classic_tab_fragment_shopping">Покупки</string>
+	<string name="classic_tab_fragment_plants">Растения</string>
+	<string name="classic_tab_fragment_animals">Животные</string>
+	<string name="classic_tab_fragment_time_weather">Время и погода</string>
+	<string name="classic_tab_fragment_travel">Поехали!</string>
+	<string name="classic_tab_fragment_symbols">Символы</string>
+	
+	<!-- Mine tab strings -->
+	<string name="mine_tab_empty_area">В твоём списке любимых ещё ничего нет. Пополняй свои любимые долгим нажатием на смайлик.</string>
+	
+	<string name="loading">Загрузка</string>
+	
+	<string name="share_via">Переслать по:</string>
+	<string name="made_in_emojidom">Сделано в приложении \"Emojidom\" для Android</string>
+	
+	<!-- Main menu -->
+	<string name="menu_item_request_new">Хочу смайлик!</string>
+	<string name="menu_item_tell_friends">Поделись с друзьями</string>
+	<string name="menu_item_rate_emojidom">Оцени Emojidom!</string>
+	<string name="menu_item_send_us_feedback">Напиши автору</string>
+	
+	<!-- Menu item: Request new emoji -->
+	<string name="request_new_dialog_text">Хочешь новый смайлик? Опиши его, и мы постараемся его включить в следующее обновление приложения!</string>
+	<string name="request_new_dialog_cancel">Отменить</string>
+	<string name="request_new_dialog_ok">Давай!</string>
+	<string name="request_new_subject">Хочу смайлик!</string>
+	<string name="request_new_text">Хочу такой смайлик: ...</string>
+	
+	<!-- Menu item: Tell friends -->
+	<string name="tell_friends_subject">Приложение \"Emojidom\"</string>
+	<string name="tell_friends_text">Привет! \n\nВот новое приложение для Android с фотоклавиатурой и смайликами со всего мира - \"Emojidom\". Создавай свою собственную клавиатуру с любыми фотками - они превратятся в мини-иконки. Или выбирай из более 1200 прикольных смайликов. Отправляй сообщения c Emojidom по электронной почте, ММС, WhatsApp Messenger, на Одноклассники, ВКонтакте, Facebook, Twitter... \n\nИ если ты хочешь новый смайлик, его можно бесплатно запросить в следующие обновления приложения. Прикольно!
+ \n\nПосмотреть \"Emojidom\": https://play.google.com/store/apps/details?id=com.plantpurple.emojidom</string>
+		
+	<!-- Menu item: Send us feedback -->
+	<string name="send_feedback_subject">Мой отзыв: Emojidom</string>
+		
+	<string name="add_to_favourites">Добавить в любимые?</string>
+	<string name="remove_from_favourites">Убрать из любимых?</string>
+	<string name="already_in_favourites">Этот смайлик уже есть в списке любимых.</string>
+	
+	<string name="remove_from_mine">Убрать отсюда?</string>
+	<string name="save">Сохранить?</string>
+	
+	<string name="add_photo_icon">Сделать фото-иконку из:</string>
+	<string name="take_photo">Новой фотки</string>
+	<string name="choose_photos">Фотки в альбоме</string>
+	
+	<string name="type_something">А здесь пусто... Напечатай что-нибудь сначала.</string>
+	
+	<string name="button_let_us_know">Есть идея новых тем смайликов? \nДай нам знать!</string>
+	
+	<!-- Rating invitation -->
+	<string name="rating_invitation_caption">Как тебе Emojidom?</string>
+	<string name="rating_invitation_rate_emojidom">Оцени Emojidom!</string>
+	<string name="rating_invitation_send_feedback">Напиши автору</string>
+	<string name="rating_invitation_dont_show">Больше не показывать</string>
+	
+	<!-- In-app products strings -->
+	<string name="in_app_purchase_no_ads">Ну ее, эту рекламу!</string>
+	<string name="in_app_purchase_holidays">Новый Год и Хеллоуин</string>
+	<string name="in_app_purchase_naughty">Не совсем приличные</string>
+	<string name="in_app_purchase_naughty_black">Не совсем приличные - Африка</string>
+	<string name="in_app_purchase_naughty_asian">Не совсем приличные - Азия</string>
+	<string name="in_app_purchase_nationalities">Со всего мира</string>
+	<string name="in_app_purchase_more_coming_soon">Загляни попозже! Мы рисуем новые смайлики :-)</string>
+	
+	<string name="buy_button_text">Купить всего за</string>
+	
+	<!-- Side navigation panel -->
+	<string name="side_navigation_caption">Categories</string>
+	
+	<!-- Errors -->
+	<string name="error_image_from_gallery_not_added">Error: Image was not added from gallery.</string>
+	<string name="error_cropping_not_supported">Error: Images cropping on your device not supported.</string>
+	<string name="error_camera_access">Error: Camera access denied.</string>
+	<string name="error_purchase_failed">Error: Purchase failed.</string>
+	<string name="error_image_loading_failed">Error: Loading failed.</string>
+	<string name="error_no_internet">Internet connection not found.</string>
+	<string name="error_cant_restoring_purchase">Please check your internet connection and restart the app to activate all 
+		purchased in-app products.</string>
+	
+</resources>

@@ -1,0 +1,131 @@
+<resources>
+
+	<!-- Do not translate these strings -->
+	<string name="app_name">Emojidom</string>
+	<string name="title_activity_main">Emojidom</string>
+	<string name="clear">Clear message</string>
+	<string name="flurry_private_key">MKSVW66KNGW497WNSXN9</string>
+	<string name="xml_file_directory">/Android/data/com.plantpurple.emojidom/</string>
+	<string name="xml_file_mine_directory">mine/</string>
+	<string name="font_name">appleberry_with_cyrillic</string>
+	
+	<!-- __________________________ THIS CAN BE TRANSLATED __________________________ -->
+	
+	<!-- Tab names -->
+	<string name="tab_keyboard">KEYBOARD</string>
+	<string name="tab_mine">MINE</string>
+	<string name="tab_cool">LEGAIS</string>
+	<string name="tab_classic">CLÁSSICOS</string>
+	<string name="tab_more">MORE</string>
+	
+	<string name="cool_tab_fragment_favourites">Favoritos</string>
+	
+	<string name="more_details">Veja detalhes</string>
+	
+	<!-- Cool titles -->
+	<string name="cool_tab_fragment_happy">Feliz</string>
+	<string name="cool_tab_fragment_romantic">Romântico</string>
+	<string name="cool_tab_fragment_angry">Zangado</string>
+	<string name="cool_tab_fragment_expressions">Expressões</string>
+	<string name="cool_tab_fragment_descriptive">Descritivo</string>
+	<string name="cool_tab_fragment_clothes">Roupas</string>
+	<string name="cool_tab_fragment_looks">Visuais</string>
+	<string name="cool_tab_fragment_busy">Ocupado</string>
+	<string name="cool_tab_fragment_leisure">Tempo livre</string>
+	<string name="cool_tab_fragment_food">Comida</string>
+	<string name="cool_tab_fragment_sport">Esporte</string>
+	<string name="cool_tab_fragment_places">Lugares</string>
+	<string name="cool_tab_fragment_naughty">Endiabrados</string>
+	<string name="cool_tab_fragment_naughty_black">Endiabrados - Africanos</string>
+	<string name="cool_tab_fragment_naughty_asian">Endiabrados - Asiáticos</string>
+	<string name="cool_tab_fragment_holidays">Natal, Halloween</string>
+	<string name="cool_tab_fragment_nationalities">Nacionalidades</string>
+	
+	<!-- Classic titles -->
+	<string name="classic_tab_fragment_smileys">Smileys</string>
+	<string name="classic_tab_fragment_romantic">Romântico</string>
+	<string name="classic_tab_fragment_gestures">Gestos</string>
+	<string name="classic_tab_fragment_food">Comida</string>
+	<string name="classic_tab_fragment_sports">Hobbies</string>
+	<string name="classic_tab_fragment_communication">Comunicação</string>
+	<string name="classic_tab_fragment_shopping">Compras</string>
+	<string name="classic_tab_fragment_plants">Plantas</string>
+	<string name="classic_tab_fragment_animals">Animais</string>
+	<string name="classic_tab_fragment_time_weather">Tempo e Meteorologia</string>
+	<string name="classic_tab_fragment_travel">Viagem</string>
+	<string name="classic_tab_fragment_symbols">Símbolos</string>
+	
+	<!-- Mine tab strings -->
+	<string name="mine_tab_empty_area">Você ainda não marcou qualquer emoji como Favorito. Dê um toque longo em uma imagem emoji e adicione-a aos favoritos.</string>
+	
+	<string name="loading">Carregando</string>
+	
+	<string name="share_via">Compartilhe através de:</string>
+	<string name="made_in_emojidom">Feito em um aplicativo \"Emojidom\" para Android</string>
+	
+	<!-- Main menu -->
+	<string name="menu_item_request_new">Solicitar novo emoji</string>
+	<string name="menu_item_tell_friends">Partilhe com amigos!</string>
+	<string name="menu_item_rate_emojidom">Avaliar Emojidom</string>
+	<string name="menu_item_send_us_feedback">Enviar feedback</string>
+	
+	<!-- Menu item: Request new emoji -->
+	<string name="request_new_dialog_text">Tem uma ótima idéia para um emoji? Partilhe connosco e talvez a próxima atualização do aplicativo contenha seu emoji para todo o mundo usar!</string>
+	<string name="request_new_dialog_cancel">Cancelar</string>
+	<string name="request_new_dialog_ok">OK</string>
+	<string name="request_new_subject">Novo pedido de emoji</string>
+	<string name="request_new_text">Eu gostaria de um emoji para…</string>
+	
+	<!-- Menu item: Tell friends -->
+	<string name="tell_friends_subject">Aplicativo \"Emojidom\" para Android</string>
+	<string name="tell_friends_text">Oi, \n\nConfira este impressionante aplicativo para Android: \"Emojidom\". Tire fotos e as use como ícones em suas mensagens no Facebook, Twitter, WhatsApp, e-mails ou MMS. Ou escolha de uma coleção de 1.200+ smileys legais. \n\nE se você quiser um emoji novo, você pode solicitar que ele seja adicionado ao aplicativo na atualização seguinte. Fácil! \n\nSaiba mais sobre \"Emojidom\": https://play.google.com/store/apps/details?id=com.plantpurple.emojidom</string>
+		
+	<!-- Menu item: Send us feedback -->
+	<string name="send_feedback_subject">O meu feedback: Emojidom</string>
+		
+	<string name="add_to_favourites">Adicionar aos Favoritos?</string>
+	<string name="remove_from_favourites">Remover dos Favoritos?</string>
+	<string name="already_in_favourites">Já existe nos seus Favoritos.</string>
+	
+	<string name="remove_from_mine">Eliminar daqui?</string>
+	<string name="save">Salvar?</string>
+	
+	<string name="add_photo_icon">Adicione um ícone de foto</string>
+	<string name="take_photo">Tire foto</string>
+	<string name="choose_photos">Escolha fotos</string>
+	
+	<string name="type_something">Por favor, escreva algo primeiro.</string>
+	
+	<string name="button_let_us_know">Tem uma idéia para um novo pack Emoji? \nAvise-nos!</string>
+	
+	<!-- Rating invitation -->
+	<string name="rating_invitation_caption">Gostou Emojidom?</string>
+	<string name="rating_invitation_rate_emojidom">Avaliar Emojidom!</string>
+	<string name="rating_invitation_send_feedback">Enviar feedback</string>
+	<string name="rating_invitation_dont_show">Ocultar para sempre</string>
+	
+	<!-- In-app products strings -->
+	<string name="in_app_purchase_no_ads">Usufruir sem anúncios</string>
+	<string name="in_app_purchase_holidays">Natal, Halloween</string>
+	<string name="in_app_purchase_naughty">Emoji endiabrados</string>
+	<string name="in_app_purchase_naughty_black">Endiabrados - Africanos</string>
+	<string name="in_app_purchase_naughty_asian">Endiabrados - Asiáticos</string>
+	<string name="in_app_purchase_nationalities">Nacionalidades</string>
+	<string name="in_app_purchase_more_coming_soon">Mais em breve!</string>
+	
+	<string name="buy_button_text">Adquira por apenas</string>
+	
+	<!-- Side navigation panel -->
+	<string name="side_navigation_caption">Categories</string>
+	
+	<!-- Errors -->
+	<string name="error_image_from_gallery_not_added">Error: Image was not added from gallery.</string>
+	<string name="error_cropping_not_supported">Error: Images cropping on your device not supported.</string>
+	<string name="error_camera_access">Error: Camera access denied.</string>
+	<string name="error_purchase_failed">Error: Purchase failed.</string>
+	<string name="error_image_loading_failed">Error: Loading failed.</string>
+	<string name="error_no_internet">Internet connection not found.</string>
+	<string name="error_cant_restoring_purchase">Please check your internet connection and restart the app to activate all 
+		purchased in-app products.</string>
+	
+</resources>

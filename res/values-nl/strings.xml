@@ -1,0 +1,132 @@
+<resources>
+
+	<!-- Do not translate these strings -->
+	<string name="app_name">Emojidom</string>
+	<string name="title_activity_main">Emojidom</string>
+	<string name="clear">Clear message</string>
+	<string name="flurry_private_key">MKSVW66KNGW497WNSXN9</string>
+	<string name="xml_file_directory">/Android/data/com.plantpurple.emojidom/</string>
+	<string name="xml_file_mine_directory">mine/</string>
+	<string name="font_name">appleberry_with_cyrillic</string>
+	
+	<!-- __________________________ THIS CAN BE TRANSLATED __________________________ -->
+	
+	<!-- Tab names -->
+	<string name="tab_keyboard">KEYBOARD</string>
+	<string name="tab_mine">MINE</string>
+	<string name="tab_cool">UNIEK</string>
+	<string name="tab_classic">KLASSIEK</string>
+	<string name="tab_more">MORE</string>
+	
+	<string name="cool_tab_fragment_favourites">Favorieten</string>
+	
+	<string name="more_details">Deze wil ik!</string>
+	
+	<!-- Cool titles -->
+	<string name="cool_tab_fragment_happy">Blij</string>
+	<string name="cool_tab_fragment_romantic">Verliefd</string>
+	<string name="cool_tab_fragment_angry">Boos</string>
+	<string name="cool_tab_fragment_expressions">Uitingen</string>
+	<string name="cool_tab_fragment_descriptive">Beschrijvend</string>
+	<string name="cool_tab_fragment_clothes">Kleren</string>
+	<string name="cool_tab_fragment_looks">Uiterlijk</string>
+	<string name="cool_tab_fragment_busy">Druk</string>
+	<string name="cool_tab_fragment_leisure">Vrije tijd</string>
+	<string name="cool_tab_fragment_food">Eten</string>
+	<string name="cool_tab_fragment_sport">Sport</string>
+	<string name="cool_tab_fragment_places">Plaatsen</string>
+	<string name="cool_tab_fragment_naughty">Ondeugende</string>
+	<string name="cool_tab_fragment_naughty_black">Ondeugende - Donker</string>
+	<string name="cool_tab_fragment_naughty_asian">Ondeugende - Aziatisch</string>
+	<string name="cool_tab_fragment_holidays">Kerstmis, Halloween</string>
+	<string name="cool_tab_fragment_nationalities">Nationaliteit</string>
+	
+	<!-- Classic titles -->
+	<string name="classic_tab_fragment_smileys">Smileys</string>
+	<string name="classic_tab_fragment_romantic">Verliefd</string>
+	<string name="classic_tab_fragment_gestures">Gebaren</string>
+	<string name="classic_tab_fragment_food">Eten</string>
+	<string name="classic_tab_fragment_sports">Hobby\'s</string>
+	<string name="classic_tab_fragment_communication">Communicatie</string>
+	<string name="classic_tab_fragment_shopping">Winkelen</string>
+	<string name="classic_tab_fragment_plants">Planten</string>
+	<string name="classic_tab_fragment_animals">Dieren</string>
+	<string name="classic_tab_fragment_time_weather">Tijd \u0026 weer</string>
+	<string name="classic_tab_fragment_travel">Reizen</string>
+	<string name="classic_tab_fragment_symbols">Symbolen</string>
+	
+	<!-- Mine tab strings -->
+	<string name="mine_tab_empty_area">Je hebt nog geen smiley als favoriet toegevoegd. Een lange tik op een plaatje en hij staat in de lijst.</string>
+	
+	<string name="loading">Laden</string>
+	
+	<string name="share_via">Delen via:</string>
+	<string name="made_in_emojidom">Gemaakt in \"Emojidom\" Android app</string>
+	
+	<!-- Main menu -->
+	<string name="menu_item_request_new">Vraag nieuwe smileys aan</string>
+	<string name="menu_item_tell_friends">Vertel het vrienden!</string>
+	<string name="menu_item_rate_emojidom">Beoordeel Emojidom</string>
+	<string name="menu_item_send_us_feedback">Wat vind je van ons?</string>
+	
+	<!-- Menu item: Request new emoji -->
+	<string name="request_new_dialog_text">Heb je een geweldig idee voor een nieuwe leuke smiley? Laat het ons weten en misschien zit hij in de nieuwste update zodat iedereen hem kan gebruiken!</string>
+	<string name="request_new_dialog_cancel">Annuleren</string>
+	<string name="request_new_dialog_ok">Oké</string>
+	<string name="request_new_subject">Nieuw smiley verzoek</string>
+	<string name="request_new_text">Ik wil graag een smiley voor...</string>
+	
+	<!-- Menu item: Tell friends -->
+	<string name="tell_friends_subject">Emojidom app voor Android</string>
+	<string name="tell_friends_text">Hi, \n\nMoet je deze gave Android app zien: \"Emojidom\". Maak foto\'s en gebruik ze als icoontjes in je berichten op Facebook, Twitter, WhatsApp, in e-mails of MMS. Of kies uit een verzameling van 1200+ coole smileys! \n\nEn als je een idee hebt voor een nieuwe smiley, dan kan je die aanvragen voor de nieuwste update. Vet!
+ \n\nLees meer over \"Emojidom\": https://play.google.com/store/apps/details?id=com.plantpurple.emojidom</string>
+		
+	<!-- Menu item: Send us feedback -->
+	<string name="send_feedback_subject">Mijn beoordeling: Emojidom</string>
+		
+	<string name="add_to_favourites">Toevoegen aan favorieten?</string>
+	<string name="remove_from_favourites">Verwijderen van favorieten?</string>
+	<string name="already_in_favourites">Hij staat al in je favorieten.</string>
+	
+	<string name="remove_from_mine">Van hier verwijderen?</string>
+	<string name="save">Opslaan?</string>
+	
+	<string name="add_photo_icon">Voeg een foto-icoon toe</string>
+	<string name="take_photo">Maak een foto</string>
+	<string name="choose_photos">Kies foto\'s</string>
+	
+	<string name="type_something">Typ alsjeblieft eerst iets.</string>
+	
+	<string name="button_let_us_know">Een idee voor een nieuw Smiley Pakket? \nLaat het ons weten!</string>
+	
+	<!-- Rating invitation -->
+	<string name="rating_invitation_caption">Houd je van Emojidom?</string>
+	<string name="rating_invitation_rate_emojidom">Beoordeel Emojidom!</string>
+	<string name="rating_invitation_send_feedback">Wat vind je van ons?</string>
+	<string name="rating_invitation_dont_show">Verberg het voor altijd</string>
+	
+	<!-- In-app products strings -->
+	<string name="in_app_purchase_no_ads">Geen advertenties, meer typruimte</string>
+	<string name="in_app_purchase_holidays">Kerstmis, Halloween</string>
+	<string name="in_app_purchase_naughty">Ondeugende smileys</string>
+	<string name="in_app_purchase_naughty_black">Ondeugende smileys - Donker</string>
+	<string name="in_app_purchase_naughty_asian">Ondeugende smileys - Aziatisch</string>
+	<string name="in_app_purchase_nationalities">Nationaliteit</string>
+	<string name="in_app_purchase_more_coming_soon">Binnenkort meer!</string>
+	
+	<string name="buy_button_text">Verkrijgbaar voor slechts</string>
+	
+	<!-- Side navigation panel -->
+	<string name="side_navigation_caption">Categories</string>
+	
+	<!-- Errors -->
+	<string name="error_image_from_gallery_not_added">Error: Image was not added from gallery.</string>
+	<string name="error_cropping_not_supported">Error: Images cropping on your device not supported.</string>
+	<string name="error_camera_access">Error: Camera access denied.</string>
+	<string name="error_purchase_failed">Error: Purchase failed.</string>
+	<string name="error_image_loading_failed">Error: Loading failed.</string>
+	<string name="error_no_internet">Internet connection not found.</string>
+	<string name="error_cant_restoring_purchase">Please check your internet connection and restart the app to activate all 
+		purchased in-app products.</string>
+	
+</resources>

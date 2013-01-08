@@ -1,0 +1,131 @@
+<resources>
+
+	<!-- Do not translate these strings -->
+	<string name="app_name">Emojidom</string>
+	<string name="title_activity_main">Emojidom</string>
+	<string name="clear">Clear message</string>
+	<string name="flurry_private_key">MKSVW66KNGW497WNSXN9</string>
+	<string name="xml_file_directory">/Android/data/com.plantpurple.emojidom/</string>
+	<string name="xml_file_mine_directory">mine/</string>
+	<string name="font_name">appleberry_with_cyrillic</string>
+	
+	<!-- __________________________ THIS CAN BE TRANSLATED __________________________ -->
+	
+	<!-- Tab names -->
+	<string name="tab_keyboard">KEYBOARD</string>
+	<string name="tab_mine">MINE</string>
+	<string name="tab_cool">酷爆</string>
+	<string name="tab_classic">经典</string>
+	<string name="tab_more">MORE</string>
+	
+	<string name="cool_tab_fragment_favourites">我的最爱</string>
+	
+	<string name="more_details">查看详情</string>
+	
+	<!-- Cool titles -->
+	<string name="cool_tab_fragment_happy">开心</string>
+	<string name="cool_tab_fragment_romantic">浪漫</string>
+	<string name="cool_tab_fragment_angry">愤怒</string>
+	<string name="cool_tab_fragment_expressions">神采飞扬</string>
+	<string name="cool_tab_fragment_descriptive">搞怪</string>
+	<string name="cool_tab_fragment_clothes">衣服</string>
+	<string name="cool_tab_fragment_looks">容貌</string>
+	<string name="cool_tab_fragment_busy">忙碌</string>
+	<string name="cool_tab_fragment_leisure">休闲</string>
+	<string name="cool_tab_fragment_food">食品</string>
+	<string name="cool_tab_fragment_sport">运动</string>
+	<string name="cool_tab_fragment_places">场所</string>
+	<string name="cool_tab_fragment_naughty">大尺度表情符号</string>
+	<string name="cool_tab_fragment_naughty_black">大尺度表情符号 - 非洲版</string>
+	<string name="cool_tab_fragment_naughty_asian">大尺度表情符号 - 亚洲版</string>
+	<string name="cool_tab_fragment_holidays">圣诞节、万圣节</string>
+	<string name="cool_tab_fragment_nationalities">国籍</string>
+	
+	<!-- Classic titles -->
+	<string name="classic_tab_fragment_smileys">笑脸</string>
+	<string name="classic_tab_fragment_romantic">浪漫</string>
+	<string name="classic_tab_fragment_gestures">手势</string>
+	<string name="classic_tab_fragment_food">食品</string>
+	<string name="classic_tab_fragment_sports">兴趣爱好</string>
+	<string name="classic_tab_fragment_communication">通讯</string>
+	<string name="classic_tab_fragment_shopping">购物</string>
+	<string name="classic_tab_fragment_plants">植物</string>
+	<string name="classic_tab_fragment_animals">动物</string>
+	<string name="classic_tab_fragment_time_weather">时间和天气</string>
+	<string name="classic_tab_fragment_travel">旅行</string>
+	<string name="classic_tab_fragment_symbols">符号</string>
+	
+	<!-- Mine tab strings -->
+	<string name="mine_tab_empty_area">你未曾马克任何表情符号呢。试着长按一个表情符号，并把它加到我的最爱吧。</string>
+	
+	<string name="loading">登陆中</string>
+	
+	<string name="share_via">在此与人分享：</string>
+	<string name="made_in_emojidom">为安卓系统所创的\"Emojidom\"应用程序</string>
+	
+	<!-- Main menu -->
+	<string name="menu_item_request_new">创建新的表情符号</string>
+	<string name="menu_item_tell_friends">与朋友分享</string>
+	<string name="menu_item_rate_emojidom">给 Emojidom﹗</string>
+	<string name="menu_item_send_us_feedback">意见回馈</string>
+	
+	<!-- Menu item: Request new emoji -->
+	<string name="request_new_dialog_text">有牛逼的表情符号意念吗？请告诉我们,下回应用程序更新时可能会出现哦﹗全球通用呢﹗</string>
+	<string name="request_new_dialog_cancel">取消</string>
+	<string name="request_new_dialog_ok">懂了</string>
+	<string name="request_new_subject">请求创建新的表情符号</string>
+	<string name="request_new_text">我希望新增一个表情符号，用意为…</string>
+	
+	<!-- Menu item: Tell friends -->
+	<string name="tell_friends_subject">\"Emojidom\" Android应用程序</string>
+	<string name="tell_friends_text">嗨﹗ \n\n诚意向你推介一个挺好的Android应用程序: Emojidom。拍摄照片，并把它们用作通信中的图标，在你的人人、微博、开心、QQ 空间、微信、脸谱、推特、电子邮件或彩信中使用。或者在 1200  多个炫酷表情的收藏中作出选择！ \n\n还有，如果你想创建一个新的表情符号，可以告诉开发人员，他们会于下次应用程序更新时加入，很酷吧对不对﹗ \n\n了解更多 \"Emojidom\": https://play.google.com/store/apps/details?id=com.plantpurple.emojidom</string>
+		
+	<!-- Menu item: Send us feedback -->
+	<string name="send_feedback_subject">我的意见</string>
+		
+	<string name="add_to_favourites">加到我的最爱?</string>
+	<string name="remove_from_favourites">从我的最爱移除?</string>
+	<string name="already_in_favourites">已经加到我的最爱了。</string>
+	
+	<string name="remove_from_mine">从此处移除？</string>
+	<string name="save">保存？</string>
+	
+	<string name="add_photo_icon">添加照片图标</string>
+	<string name="take_photo">拍摄照片</string>
+	<string name="choose_photos">选择照片</string>
+	
+	<string name="type_something">请先输入文字或表情符号。</string>
+	
+	<string name="button_let_us_know">有牛逼的表情符号点子？ \n请慷慨告诉我们﹗</string>
+	
+	<!-- Rating invitation -->
+	<string name="rating_invitation_caption">喜欢Emojidom吗？</string>
+	<string name="rating_invitation_rate_emojidom">给 Emojidom﹗</string>
+	<string name="rating_invitation_send_feedback">意见回馈</string>
+	<string name="rating_invitation_dont_show">不再显示本提示</string>
+	
+	<!-- In-app products strings -->
+	<string name="in_app_purchase_no_ads">移除广告</string>
+	<string name="in_app_purchase_holidays">圣诞节、万圣节</string>
+	<string name="in_app_purchase_naughty">大尺度表情符号</string>
+	<string name="in_app_purchase_naughty_black">大尺度表情符号 - 非洲版</string>
+	<string name="in_app_purchase_naughty_asian">大尺度表情符号 - 亚洲版</string>
+	<string name="in_app_purchase_nationalities">国籍</string>
+	<string name="in_app_purchase_more_coming_soon">更多表情符号即将推出﹗</string>
+	
+	<string name="buy_button_text">下载只需</string>
+	
+	<!-- Side navigation panel -->
+	<string name="side_navigation_caption">Categories</string>
+	
+	<!-- Errors -->
+	<string name="error_image_from_gallery_not_added">Error: Image was not added from gallery.</string>
+	<string name="error_cropping_not_supported">Error: Images cropping on your device not supported.</string>
+	<string name="error_camera_access">Error: Camera access denied.</string>
+	<string name="error_purchase_failed">Error: Purchase failed.</string>
+	<string name="error_image_loading_failed">Error: Loading failed.</string>
+	<string name="error_no_internet">Internet connection not found.</string>
+	<string name="error_cant_restoring_purchase">Please check your internet connection and restart the app to activate all 
+		purchased in-app products.</string>
+	
+</resources>

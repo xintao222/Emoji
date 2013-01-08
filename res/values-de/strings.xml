@@ -1,0 +1,131 @@
+<resources>
+
+	<!-- Do not translate these strings -->
+	<string name="app_name">Emojidom</string>
+	<string name="title_activity_main">Emojidom</string>
+	<string name="clear">Clear message</string>
+	<string name="flurry_private_key">MKSVW66KNGW497WNSXN9</string>
+	<string name="xml_file_directory">/Android/data/com.plantpurple.emojidom/</string>
+	<string name="xml_file_mine_directory">mine/</string>
+	<string name="font_name">appleberry_with_cyrillic</string>
+	
+	<!-- __________________________ THIS CAN BE TRANSLATED __________________________ -->
+	
+	<!-- Tab names -->
+	<string name="tab_keyboard">KEYBOARD</string>
+	<string name="tab_mine">MINE</string>
+	<string name="tab_cool">COOL</string>
+	<string name="tab_classic">REGULÄR</string>
+	<string name="tab_more">MORE</string>
+	
+	<string name="cool_tab_fragment_favourites">Favoriten</string>
+	
+	<string name="more_details">Details ansehen</string>
+	
+	<!-- Cool titles -->
+	<string name="cool_tab_fragment_happy">Glücklich</string>
+	<string name="cool_tab_fragment_romantic">Romantisch</string>
+	<string name="cool_tab_fragment_angry">Verärgert</string>
+	<string name="cool_tab_fragment_expressions">Ausdrucksvoll</string>
+	<string name="cool_tab_fragment_descriptive">Das sagt alles</string>
+	<string name="cool_tab_fragment_clothes">Kleidung</string>
+	<string name="cool_tab_fragment_looks">Aussehen</string>
+	<string name="cool_tab_fragment_busy">Beschäftigt</string>
+	<string name="cool_tab_fragment_leisure">Freizeit</string>
+	<string name="cool_tab_fragment_food">Essen</string>
+	<string name="cool_tab_fragment_sport">Sport</string>
+	<string name="cool_tab_fragment_places">Überall</string>
+	<string name="cool_tab_fragment_naughty">Freche</string>
+	<string name="cool_tab_fragment_naughty_black">Freche - Schwarz</string>
+	<string name="cool_tab_fragment_naughty_asian">Freche - Asiatisch</string>
+	<string name="cool_tab_fragment_holidays">Weihnachten, Halloween</string>
+	<string name="cool_tab_fragment_nationalities">Nationalitäten</string>
+	
+	<!-- Classic titles -->
+	<string name="classic_tab_fragment_smileys">Smileys</string>
+	<string name="classic_tab_fragment_romantic">Romantisch</string>
+	<string name="classic_tab_fragment_gestures">Gesten</string>
+	<string name="classic_tab_fragment_food">Essen</string>
+	<string name="classic_tab_fragment_sports">Hobbys</string>
+	<string name="classic_tab_fragment_communication">Kommunikation</string>
+	<string name="classic_tab_fragment_shopping">Einkaufen</string>
+	<string name="classic_tab_fragment_plants">Pflanzen</string>
+	<string name="classic_tab_fragment_animals">Tiere</string>
+	<string name="classic_tab_fragment_time_weather">Zeit \u0026 Wetter</string>
+	<string name="classic_tab_fragment_travel">Reisen</string>
+	<string name="classic_tab_fragment_symbols">Symbole</string>
+	
+	<!-- Mine tab strings -->
+	<string name="mine_tab_empty_area">Du hast noch keine Emoji zu Favoriten ernannt. Tippe lange auf ein Emoji-Bild und füge es zu Favoriten hinzu.</string>
+	
+	<string name="loading">App wird geladen</string>
+	
+	<string name="share_via">Teilen über:</string>
+	<string name="made_in_emojidom">Mit der \"Emojidom\"-App für Android erstellt</string>
+	
+	<!-- Main menu -->
+	<string name="menu_item_request_new">Neue Emoji vorschlagen</string>
+	<string name="menu_item_tell_friends">Freunde informieren</string>
+	<string name="menu_item_rate_emojidom">Emojidom bewerten!</string>
+	<string name="menu_item_send_us_feedback">Gib uns dein Feedback</string>
+	
+	<!-- Menu item: Request new emoji -->
+	<string name="request_new_dialog_text">Hast du eine super Idee für ein Emoji? Erzähl uns davon und vielleicht steht dann dein Emoji schon beim nächsten App-Update allen anderen zur Verfügung!</string>
+	<string name="request_new_dialog_cancel">Abbrechen</string>
+	<string name="request_new_dialog_ok">OK</string>
+	<string name="request_new_subject">Neuer Emoji-Vorschlag</string>
+	<string name="request_new_text">Mir würde ein Emoji gefallen, das…</string>
+	
+	<!-- Menu item: Tell friends -->
+	<string name="tell_friends_subject">\"Emojidom\"-App für Android</string>
+	<string name="tell_friends_text">Hallo, \n\nSchau dir mal diese irre neue Gratis-App fürs iPhone an: Emojidom. Damit kann man seine eigenen Fotos als Icons in Facebook-, WhatsApp- oder Twitter-Nachrichten verwenden - oder auch in E-Mails oder MMS. Außerdem hat man die Auswahl unter mehr als 1200 coolen Smileys und Emoji! \n\nUnd wenn du eine Idee für einen neuen Emoji hast, kannst du die für das nächste App-Update vorschlagen. Echt super! \n\nHier gibt\'s mehr über Emojidom: https://play.google.com/store/apps/details?id=com.plantpurple.emojidom</string>
+		
+	<!-- Menu item: Send us feedback -->
+	<string name="send_feedback_subject">Mein Feedback: Emojidom</string>
+		
+	<string name="add_to_favourites">Zu Favoriten hinzufügen?</string>
+	<string name="remove_from_favourites">Aus Favoriten entfernen?</string>
+	<string name="already_in_favourites">Das gehört schon zu deinen Favoriten.</string>
+	
+	<string name="remove_from_mine">Hieraus entfernen?</string>
+	<string name="save">Speichern?</string>
+	
+	<string name="add_photo_icon">Ein Foto-Icon hinzufügen</string>
+	<string name="take_photo">Foto aufnehmen</string>
+	<string name="choose_photos">Foto auswählen</string>
+	
+	<string name="type_something">Bitte gib zuerst etwas ein.</string>
+	
+	<string name="button_let_us_know">Eine Idee für ein neues Emoji-Paket? \nSag\'s uns!</string>
+	
+	<!-- Rating invitation -->
+	<string name="rating_invitation_caption">Gefällt dir Emojidom?</string>
+	<string name="rating_invitation_rate_emojidom">Emojidom bewerten!</string>
+	<string name="rating_invitation_send_feedback">Gib uns dein Feedback</string>
+	<string name="rating_invitation_dont_show">Nicht mehr anzeigen</string>
+	
+	<!-- In-app products strings -->
+	<string name="in_app_purchase_no_ads">Keine Werbung, mehr Platz zum Tippen</string>
+	<string name="in_app_purchase_holidays">Weihnachten, Halloween</string>
+	<string name="in_app_purchase_naughty">Freche Smileys</string>
+	<string name="in_app_purchase_naughty_black">Freche Smileys - Schwarz</string>
+	<string name="in_app_purchase_naughty_asian">Freche Smileys - Asiatisch</string>
+	<string name="in_app_purchase_nationalities">Nationalitäten</string>
+	<string name="in_app_purchase_more_coming_soon">Bald gibt\'s noch mehr!</string>
+	
+	<string name="buy_button_text">Für nur</string>
+	
+	<!-- Side navigation panel -->
+	<string name="side_navigation_caption">Categories</string>
+	
+	<!-- Errors -->
+	<string name="error_image_from_gallery_not_added">Error: Image was not added from gallery.</string>
+	<string name="error_cropping_not_supported">Error: Images cropping on your device not supported.</string>
+	<string name="error_camera_access">Error: Camera access denied.</string>
+	<string name="error_purchase_failed">Error: Purchase failed.</string>
+	<string name="error_image_loading_failed">Error: Loading failed.</string>
+	<string name="error_no_internet">Internet connection not found.</string>
+	<string name="error_cant_restoring_purchase">Please check your internet connection and restart the app to activate all 
+		purchased in-app products.</string>
+	
+</resources>

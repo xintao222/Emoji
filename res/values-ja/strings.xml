@@ -1,0 +1,132 @@
+<resources>
+
+	<!-- Do not translate these strings -->
+	<string name="app_name">Emojidom</string>
+	<string name="title_activity_main">Emojidom</string>
+	<string name="clear">Clear message</string>
+	<string name="flurry_private_key">MKSVW66KNGW497WNSXN9</string>
+	<string name="xml_file_directory">/Android/data/com.plantpurple.emojidom/</string>
+	<string name="xml_file_mine_directory">mine/</string>
+	<string name="font_name">appleberry_with_cyrillic</string>
+	
+	<!-- __________________________ THIS CAN BE TRANSLATED __________________________ -->
+	
+	<!-- Tab names -->
+	<string name="tab_keyboard">KEYBOARD</string>
+	<string name="tab_mine">MINE</string>
+	<string name="tab_cool">おもしろい</string>
+	<string name="tab_classic">クラシック</string>
+	<string name="tab_more">MORE</string>
+	
+	<string name="cool_tab_fragment_favourites">あなたのお気に入り</string>
+	
+	<string name="more_details">詳細を見る</string>
+	
+	<!-- Cool titles -->
+	<string name="cool_tab_fragment_happy">ハッピー</string>
+	<string name="cool_tab_fragment_romantic">ロマンチック</string>
+	<string name="cool_tab_fragment_angry">怒り</string>
+	<string name="cool_tab_fragment_expressions">感情</string>
+	<string name="cool_tab_fragment_descriptive">考え中</string>
+	<string name="cool_tab_fragment_clothes">衣装</string>
+	<string name="cool_tab_fragment_looks">見栄え</string>
+	<string name="cool_tab_fragment_busy">忙しい</string>
+	<string name="cool_tab_fragment_leisure">レジャー</string>
+	<string name="cool_tab_fragment_food">食べ物</string>
+	<string name="cool_tab_fragment_sport">スポーツ</string>
+	<string name="cool_tab_fragment_places">場所</string>
+	<string name="cool_tab_fragment_naughty">いたずらな顔文字</string>
+	<string name="cool_tab_fragment_naughty_black">いたずらな - 黒人</string>
+	<string name="cool_tab_fragment_naughty_asian">いたずらな - アジアの人</string>
+	<string name="cool_tab_fragment_holidays">クリスマス、ハロウィーン</string>
+	<string name="cool_tab_fragment_nationalities">国籍</string>
+	
+	<!-- Classic titles -->
+	<string name="classic_tab_fragment_smileys">顔文字</string>
+	<string name="classic_tab_fragment_romantic">ロマンチック</string>
+	<string name="classic_tab_fragment_gestures">ジェスチャー</string>
+	<string name="classic_tab_fragment_food">食べ物</string>
+	<string name="classic_tab_fragment_sports">趣味</string>
+	<string name="classic_tab_fragment_communication">コミュニケーション</string>
+	<string name="classic_tab_fragment_shopping">買物</string>
+	<string name="classic_tab_fragment_plants">植物</string>
+	<string name="classic_tab_fragment_animals">動物</string>
+	<string name="classic_tab_fragment_time_weather">時間と天気</string>
+	<string name="classic_tab_fragment_travel">旅行</string>
+	<string name="classic_tab_fragment_symbols">記号</string>
+	
+	<!-- Mine tab strings -->
+	<string name="mine_tab_empty_area">まだお気に入りとして絵文字をマークしていません。絵文字の画像を長タップしてお気に入りに追加してください。</string>
+	
+	<string name="loading">読み込み中</string>
+	
+	<string name="share_via">共有先:</string>
+	<string name="made_in_emojidom">「Emojidom」アンドロイド版アプリで作成</string>
+	
+	<!-- Main menu -->
+	<string name="menu_item_request_new">新しい絵文字をリクエスト</string>
+	<string name="menu_item_tell_friends">友人に話す</string>
+	<string name="menu_item_rate_emojidom">Emojidomを評価!</string>
+	<string name="menu_item_send_us_feedback">コメントお願いします</string>
+	
+	<!-- Menu item: Request new emoji -->
+	<string name="request_new_dialog_text">絵文字のいいアイデアがありますか?教えてください。そして、おそらく次のアップデート後には使える絵文字のなかにあなたの絵文字があるでしょう! </string>
+	<string name="request_new_dialog_cancel">キャンセル</string>
+	<string name="request_new_dialog_ok">オーケー</string>
+	<string name="request_new_subject">新しい絵文字リクエスト</string>
+	<string name="request_new_text">・・・についての絵文字が好き</string>
+	
+	<!-- Menu item: Tell friends -->
+	<string name="tell_friends_subject">Emojidom アプリ</string>
+	<string name="tell_friends_text">こんにちは。 \n\nこの無料ですごい「Emojidom」アンドロイド版アプリを確認してください。写真を撮り、それをFacebook, Twitter, WhatsAppメッセンジャー、Facebook メッセンジャー、Line、Mixiなどと 電子メールやMMSのメッセージのなかでアイコンとして使ってください。もしくは、1200以上の面白い顔文字や絵文字のコレクションの中から選んでください。
+	 \n\n新しい絵文字が気にいったら、次のアプリのアップデートの際に追加してもらえるようリクエストできます。すごい! \n\n「Emojidom」についてもっと知る: https://play.google.com/store/apps/details?id=com.plantpurple.emojidom</string>
+		
+	<!-- Menu item: Send us feedback -->
+	<string name="send_feedback_subject">私のフィードバック: Emojidom</string>
+		
+	<string name="add_to_favourites">お気に入りに追加?</string>
+	<string name="remove_from_favourites">お気に入りから削除?</string>
+	<string name="already_in_favourites">すでにお気に入りに追加されています。</string>
+	
+	<string name="remove_from_mine">ここから削除しますか？</string>
+	<string name="save">保存しますか？</string>
+	
+	<string name="add_photo_icon">フォトアイコンを追加</string>
+	<string name="take_photo">写真を撮る</string>
+	<string name="choose_photos">写真を選ぶ</string>
+	
+	<string name="type_something">最初に何か入力してください。</string>
+	
+	<string name="button_let_us_know">新しい絵文字パックのアイデアがありますか? \nお知らせを!</string>
+	
+	<!-- Rating invitation -->
+	<string name="rating_invitation_caption">Emojidomは気にいった?</string>
+	<string name="rating_invitation_rate_emojidom">Emojidomを評価!</string>
+	<string name="rating_invitation_send_feedback">コメントお願いします</string>
+	<string name="rating_invitation_dont_show">これを表示しないでください！</string>
+	
+	<!-- In-app products strings -->
+	<string name="in_app_purchase_no_ads">広告なし、もっと多くの記入スペース</string>
+	<string name="in_app_purchase_holidays">クリスマス、ハロウィーン</string>
+	<string name="in_app_purchase_naughty">いたずらな顔文字</string>
+	<string name="in_app_purchase_naughty_black">いたずらな顔文字 - 黒人</string>
+	<string name="in_app_purchase_naughty_asian">いたずらな顔文字 - アジアの人</string>
+	<string name="in_app_purchase_nationalities">国籍</string>
+	<string name="in_app_purchase_more_coming_soon">まもなくもっとやって来ます!</string>
+	
+	<string name="buy_button_text">で入手</string>
+	
+	<!-- Side navigation panel -->
+	<string name="side_navigation_caption">Categories</string>
+	
+	<!-- Errors -->
+	<string name="error_image_from_gallery_not_added">Error: Image was not added from gallery.</string>
+	<string name="error_cropping_not_supported">Error: Images cropping on your device not supported.</string>
+	<string name="error_camera_access">Error: Camera access denied.</string>
+	<string name="error_purchase_failed">Error: Purchase failed.</string>
+	<string name="error_image_loading_failed">Error: Loading failed.</string>
+	<string name="error_no_internet">Internet connection not found.</string>
+	<string name="error_cant_restoring_purchase">Please check your internet connection and restart the app to activate all 
+		purchased in-app products.</string>
+	
+</resources>

@@ -1,0 +1,131 @@
+<resources>
+
+	<!-- Do not translate these strings -->
+	<string name="app_name">Emojidom</string>
+	<string name="title_activity_main">Emojidom</string>
+	<string name="clear">Clear message</string>
+	<string name="flurry_private_key">MKSVW66KNGW497WNSXN9</string>
+	<string name="xml_file_directory">/Android/data/com.plantpurple.emojidom/</string>
+	<string name="xml_file_mine_directory">mine/</string>
+	<string name="font_name">appleberry_with_cyrillic</string>
+	
+	<!-- __________________________ THIS CAN BE TRANSLATED __________________________ -->
+	
+	<!-- Tab names -->
+	<string name="tab_keyboard">KEYBOARD</string>
+	<string name="tab_mine">MINE</string>
+	<string name="tab_cool">쿨</string>
+	<string name="tab_classic">클래식</string>
+	<string name="tab_more">MORE</string>
+	
+	<string name="cool_tab_fragment_favourites">당신의 즐겨찾기</string>
+	
+	<string name="more_details">상세 보기</string>
+	
+	<!-- Cool titles -->
+	<string name="cool_tab_fragment_happy">행복</string>
+	<string name="cool_tab_fragment_romantic">로맨틱</string>
+	<string name="cool_tab_fragment_angry">뿔남</string>
+	<string name="cool_tab_fragment_expressions">표현</string>
+	<string name="cool_tab_fragment_descriptive">묘사</string>
+	<string name="cool_tab_fragment_clothes">옷</string>
+	<string name="cool_tab_fragment_looks">모습</string>
+	<string name="cool_tab_fragment_busy">바쁨</string>
+	<string name="cool_tab_fragment_leisure">여가</string>
+	<string name="cool_tab_fragment_food">음식</string>
+	<string name="cool_tab_fragment_sport">스포츠</string>
+	<string name="cool_tab_fragment_places">장소</string>
+	<string name="cool_tab_fragment_naughty">장난꾸러기 스마일리</string>
+	<string name="cool_tab_fragment_naughty_black">장난꾸러기 - 흑인</string>
+	<string name="cool_tab_fragment_naughty_asian">장난꾸러기 - 아시아</string>
+	<string name="cool_tab_fragment_holidays">크리스마스, 핼러윈</string>
+	<string name="cool_tab_fragment_nationalities">국적</string>
+	
+	<!-- Classic titles -->
+	<string name="classic_tab_fragment_smileys">스마일리</string>
+	<string name="classic_tab_fragment_romantic">로맨틱</string>
+	<string name="classic_tab_fragment_gestures">동작</string>
+	<string name="classic_tab_fragment_food">음식</string>
+	<string name="classic_tab_fragment_sports">취미</string>
+	<string name="classic_tab_fragment_communication">통신</string>
+	<string name="classic_tab_fragment_shopping">쇼핑</string>
+	<string name="classic_tab_fragment_plants">식물</string>
+	<string name="classic_tab_fragment_animals">동물</string>
+	<string name="classic_tab_fragment_time_weather">시간 및 날씨</string>
+	<string name="classic_tab_fragment_travel">여행</string>
+	<string name="classic_tab_fragment_symbols">기호</string>
+	
+	<!-- Mine tab strings -->
+	<string name="mine_tab_empty_area">즐겨찾기에 추가된 이모티콘이 하나도 없습니다. 이모티콘 이미지를 길게 탭하면 즐겨찾기에 추가됩니다.</string>
+	
+	<string name="loading">로딩중</string>
+	
+	<string name="share_via">공유:</string>
+	<string name="made_in_emojidom">Android용 \"Emojidom\" 앱에서 작성</string>
+	
+	<!-- Main menu -->
+	<string name="menu_item_request_new">새로운 이모티콘 요청하기</string>
+	<string name="menu_item_tell_friends">친구에게 알리기</string>
+	<string name="menu_item_rate_emojidom">Emojidom 평가하기!</string>
+	<string name="menu_item_send_us_feedback">의견 보내기</string>
+	
+	<!-- Menu item: Request new emoji -->
+	<string name="request_new_dialog_text">이모티콘에 관한 좋은 아이디어가 있으세요? 우리에게 알려주시면, 어쩌면 앱의 다음 번 업데이트에서 당신의 이모티콘을 전세계가 사용하게 될 수도 있습니다!</string>
+	<string name="request_new_dialog_cancel">취소</string>
+	<string name="request_new_dialog_ok">OK</string>
+	<string name="request_new_subject">새로운 이모티콘 요청</string>
+	<string name="request_new_text">다음과 같은 이모티콘이 있었으면 좋겠어요...</string>
+	
+	<!-- Menu item: Tell friends -->
+	<string name="tell_friends_subject">Android용 \"Emojidom\" 앱에서 </string>
+	<string name="tell_friends_text">Hi, \n\n이 멋진 Android용 무료앱을 확인하세요: Emojidom. 사진을 찍어서 페이스북, 트위터, me2day, WhatsApp 메신저, 이메일 또는 MMS에서 아이콘으로 사용할 수 있어요. 또는, 1200개 이상의 멋진 스마일리와 이모티콘 모음에서 선택할 수도 있습니다! \n\n새로운 이모티콘을 원하신다면, 앱의 다음 번 업데이트에서 추가하도록 요청할 수도 있습니다. 간단하죠! \n\nEmojidom에 대해 자세히 알아보기: https://play.google.com/store/apps/details?id=com.plantpurple.emojidom</string>
+		
+	<!-- Menu item: Send us feedback -->
+	<string name="send_feedback_subject">내 의견: Emojidom</string>
+		
+	<string name="add_to_favourites">즐겨찾기에 추가?</string>
+	<string name="remove_from_favourites">여기에서 삭제할까요?</string>
+	<string name="already_in_favourites">즐겨찾기에 이미 있습니다.</string>
+	
+	<string name="remove_from_mine">여기에서 삭제할까요?</string>
+	<string name="save">저장할까요?</string>
+	
+	<string name="add_photo_icon">사진 아이콘을 추가</string>
+	<string name="take_photo">사진을 촬영</string>
+	<string name="choose_photos">사진을 선택</string>
+	
+	<string name="type_something">먼저 내용을 입력하세요.</string>
+	
+	<string name="button_let_us_know">새로운 이모티콘 팩에 관한 아이디어가 있으세요? \n저희에게 알려 주세요!</string>
+	
+	<!-- Rating invitation -->
+	<string name="rating_invitation_caption">Emojidom이 맘에 드세요?</string>
+	<string name="rating_invitation_rate_emojidom">Emojidom 평가하기!</string>
+	<string name="rating_invitation_send_feedback">의견 보내기</string>
+	<string name="rating_invitation_dont_show">더 이상 표시하지 않기</string>
+	
+	<!-- In-app products strings -->
+	<string name="in_app_purchase_no_ads">광고 없음, 넓어진 타이핑 공간</string>
+	<string name="in_app_purchase_holidays">크리스마스, 핼러윈</string>
+	<string name="in_app_purchase_naughty">장난꾸러기 스마일리</string>
+	<string name="in_app_purchase_naughty_black">장난꾸러기 스마일리 - 흑인</string>
+	<string name="in_app_purchase_naughty_asian">장난꾸러기 스마일리 - 아시아</string>
+	<string name="in_app_purchase_nationalities">국적</string>
+	<string name="in_app_purchase_more_coming_soon">더 추가될 예정입니다!</string>
+	
+	<string name="buy_button_text">만 내고 구입</string>
+	
+	<!-- Side navigation panel -->
+	<string name="side_navigation_caption">Categories</string>
+	
+	<!-- Errors -->
+	<string name="error_image_from_gallery_not_added">Error: Image was not added from gallery.</string>
+	<string name="error_cropping_not_supported">Error: Images cropping on your device not supported.</string>
+	<string name="error_camera_access">Error: Camera access denied.</string>
+	<string name="error_purchase_failed">Error: Purchase failed.</string>
+	<string name="error_image_loading_failed">Error: Loading failed.</string>
+	<string name="error_no_internet">Internet connection not found.</string>
+	<string name="error_cant_restoring_purchase">Please check your internet connection and restart the app to activate all 
+		purchased in-app products.</string>
+	
+</resources>

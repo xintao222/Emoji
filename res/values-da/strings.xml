@@ -1,0 +1,131 @@
+<resources>
+
+	<!-- Do not translate these strings -->
+	<string name="app_name">Emojidom</string>
+	<string name="title_activity_main">Emojidom</string>
+	<string name="clear">Clear message</string>
+	<string name="flurry_private_key">MKSVW66KNGW497WNSXN9</string>
+	<string name="xml_file_directory">/Android/data/com.plantpurple.emojidom/</string>
+	<string name="xml_file_mine_directory">mine/</string>
+	<string name="font_name">appleberry_with_cyrillic</string>
+	
+	<!-- __________________________ THIS CAN BE TRANSLATED __________________________ -->
+	
+	<!-- Tab names -->
+	<string name="tab_keyboard">KEYBOARD</string>
+	<string name="tab_mine">MINE</string>
+	<string name="tab_cool">SEJE</string>
+	<string name="tab_classic">KLASSISKE</string>
+	<string name="tab_more">MORE</string>
+	
+	<string name="cool_tab_fragment_favourites">Favoritter</string>
+	
+	<string name="more_details">Se detaljer</string>
+	
+	<!-- Cool titles -->
+	<string name="cool_tab_fragment_happy">Glad</string>
+	<string name="cool_tab_fragment_romantic">Romantisk</string>
+	<string name="cool_tab_fragment_angry">Vred</string>
+	<string name="cool_tab_fragment_expressions">Udtryk</string>
+	<string name="cool_tab_fragment_descriptive">Beskrivende</string>
+	<string name="cool_tab_fragment_clothes">Tøj</string>
+	<string name="cool_tab_fragment_looks">Blikke</string>
+	<string name="cool_tab_fragment_busy">Travl</string>
+	<string name="cool_tab_fragment_leisure">Fritid</string>
+	<string name="cool_tab_fragment_food">Mad</string>
+	<string name="cool_tab_fragment_sport">Sport</string>
+	<string name="cool_tab_fragment_places">Steder</string>
+	<string name="cool_tab_fragment_naughty">Slemme</string>
+	<string name="cool_tab_fragment_naughty_black">Slemme - Sorte</string>
+	<string name="cool_tab_fragment_naughty_asian">Slemme - Asiatiske</string>
+	<string name="cool_tab_fragment_holidays">Jul, Halloween</string>
+	<string name="cool_tab_fragment_nationalities">Nationaliteter</string>
+	
+	<!-- Classic titles -->
+	<string name="classic_tab_fragment_smileys">Smileys</string>
+	<string name="classic_tab_fragment_romantic">Romantisk</string>
+	<string name="classic_tab_fragment_gestures">Håndtegn</string>
+	<string name="classic_tab_fragment_food">Mad</string>
+	<string name="classic_tab_fragment_sports">Hobbier</string>
+	<string name="classic_tab_fragment_communication">Kommunikation</string>
+	<string name="classic_tab_fragment_shopping">Shopping</string>
+	<string name="classic_tab_fragment_plants">Planter</string>
+	<string name="classic_tab_fragment_animals">Dyr</string>
+	<string name="classic_tab_fragment_time_weather">Tid \u0026 vejr</string>
+	<string name="classic_tab_fragment_travel">Rejse</string>
+	<string name="classic_tab_fragment_symbols">Symboler</string>
+	
+	<!-- Mine tab strings -->
+	<string name="mine_tab_empty_area">Du har endnu ikke markeret nogen emoji som Favoritter. Tap og hold nede på et emoji-billede, og føj det så til Favoritter.</string>
+	
+	<string name="loading">Indlæser</string>
+	
+	<string name="share_via">Del via:</string>
+	<string name="made_in_emojidom">Lavet med \"Emojidom\" Android-app</string>
+	
+	<!-- Main menu -->
+	<string name="menu_item_request_new">Anmod om ny emoji</string>
+	<string name="menu_item_tell_friends">Del med venner</string>
+	<string name="menu_item_rate_emojidom">Vurdér Emojidom!</string>
+	<string name="menu_item_send_us_feedback">Send os feedback</string>
+	
+	<!-- Menu item: Request new emoji -->
+	<string name="request_new_dialog_text">Har du en fantastisk idé til en emoji? Lad os høre om den, og måske vil den næste app-opdatering have din emoji, så hele verden kan bruge den!</string>
+	<string name="request_new_dialog_cancel">Annullér</string>
+	<string name="request_new_dialog_ok">OK</string>
+	<string name="request_new_subject">Ny anmodning om emoji</string>
+	<string name="request_new_text">Jeg kunne godt tænke mig en emoji til…</string>
+	
+	<!-- Menu item: Tell friends -->
+	<string name="tell_friends_subject">\"Emojidom\" Android-app</string>
+	<string name="tell_friends_text">Hej, \n\nTjek denne fede Android-app: \"Emojidom\". Tag billeder og brug dem som ikoner i dine beskeder, på Facebook, Twitter, WhatsApp, e-mails eller MMS. Eller vælg mellem et udvalg af 1200+ cool smileys! \n\nOg hvis du gerne vil have en ny emoji, kan du anmode om at få den tilføje i den næste app-opdatering. Fedt! \n\nLæs mere om \"Emojidom\" Android-app: https://play.google.com/store/apps/details?id=com.plantpurple.emojidom</string>
+		
+	<!-- Menu item: Send us feedback -->
+	<string name="send_feedback_subject">Min feedback: Emojidom</string>
+		
+	<string name="add_to_favourites">Føj til Favoritter?</string>
+	<string name="remove_from_favourites">Fjern fra Favoritter?</string>
+	<string name="already_in_favourites">Den er allerede blandt dine Favoritter.</string>
+	
+	<string name="remove_from_mine">Fjern fra her?</string>
+	<string name="save">Gem?</string>
+	
+	<string name="add_photo_icon">Tilføj billedikon</string>
+	<string name="take_photo">Tag billede</string>
+	<string name="choose_photos">Vælg billeder</string>
+	
+	<string name="type_something">Du skal indtaste noget først.</string>
+	
+	<string name="button_let_us_know">Har du en idé til en ny Emoji-pakke? \nGiv os besked!</string>
+	
+	<!-- Rating invitation -->
+	<string name="rating_invitation_caption">Vild med Emojidom?</string>
+	<string name="rating_invitation_rate_emojidom">Vurdér Emojidom!</string>
+	<string name="rating_invitation_send_feedback">Send os feedback</string>
+	<string name="rating_invitation_dont_show">Vis ikke igen</string>
+	
+	<!-- In-app products strings -->
+	<string name="in_app_purchase_no_ads">Ingen reklamer</string>
+	<string name="in_app_purchase_holidays">Jul, Halloween</string>
+	<string name="in_app_purchase_naughty">Slemme emoji</string>
+	<string name="in_app_purchase_naughty_black">Slemme emoji - Sorte</string>
+	<string name="in_app_purchase_naughty_asian">Slemme emoji - Asiatiske</string>
+	<string name="in_app_purchase_nationalities">Nationaliteter</string>
+	<string name="in_app_purchase_more_coming_soon">Flere på vej snart!</string>
+	
+	<string name="buy_button_text">Få den for kun</string>
+	
+	<!-- Side navigation panel -->
+	<string name="side_navigation_caption">Categories</string>
+	
+	<!-- Errors -->
+	<string name="error_image_from_gallery_not_added">Error: Image was not added from gallery.</string>
+	<string name="error_cropping_not_supported">Error: Images cropping on your device not supported.</string>
+	<string name="error_camera_access">Error: Camera access denied.</string>
+	<string name="error_purchase_failed">Error: Purchase failed.</string>
+	<string name="error_image_loading_failed">Error: Loading failed.</string>
+	<string name="error_no_internet">Internet connection not found.</string>
+	<string name="error_cant_restoring_purchase">Please check your internet connection and restart the app to activate all 
+		purchased in-app products.</string>
+	
+</resources>

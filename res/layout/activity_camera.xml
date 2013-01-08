@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<RelativeLayout android:id="@+id/rlTopBar"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="4dp"
+    	android:background="@android:color/background_dark"> 
+    	
+		<RelativeLayout android:id="@+id/rlBack"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:background="@drawable/selector_top_button">
+			
+			<ImageView android:id="@+id/imgBack"
+	    		android:layout_width="30dp"
+	    		android:layout_height="wrap_content"
+	    		android:layout_alignParentLeft="true"
+	    		android:layout_centerVertical="true"
+	    		android:src="@drawable/navigation_previous_item" />
+			
+			<ImageView android:id="@+id/imgAppIcon"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_centerVertical="true"
+	    		android:layout_toRightOf="@id/imgBack"
+	    		android:src="@drawable/ic_launcher" />
+		
+		</RelativeLayout>
+    	
+    </RelativeLayout>
+
+	<FrameLayout
+		android:id="@+id/frameCameraPreviev"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@id/rlTopBar"
+		android:layout_above="@+id/rlBottomBar"
+		android:background="@android:color/background_light" />
+
+	<RelativeLayout
+		android:id="@id/rlBottomBar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:background="@android:color/white" >
+
+		<Button
+			android:id="@+id/btnMakePhoto"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:text="Take a photo" 
+			android:background="@drawable/selector_purchase_button"/>
+	</RelativeLayout>
+
+</RelativeLayout>

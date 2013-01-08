@@ -1,0 +1,131 @@
+<resources>
+
+	<!-- Do not translate these strings -->
+	<string name="app_name">Emojidom</string>
+	<string name="title_activity_main">Emojidom</string>
+	<string name="clear">Clear message</string>
+	<string name="flurry_private_key">MKSVW66KNGW497WNSXN9</string>
+	<string name="xml_file_directory">/Android/data/com.plantpurple.emojidom/</string>
+	<string name="xml_file_mine_directory">mine/</string>
+	<string name="font_name">appleberry_with_cyrillic</string>
+	
+	<!-- __________________________ THIS CAN BE TRANSLATED __________________________ -->
+	
+	<!-- Tab names -->
+	<string name="tab_keyboard">KEYBOARD</string>
+	<string name="tab_mine">MINE</string>
+	<string name="tab_cool">SÜPER</string>
+	<string name="tab_classic">KLASIK</string>
+	<string name="tab_more">MORE</string>
+	
+	<string name="cool_tab_fragment_favourites">Favorilerin</string>
+	
+	<string name="more_details">Bunları istiyorum!</string>
+	
+	<!-- Cool titles -->
+	<string name="cool_tab_fragment_happy">Mutluyum ulen!</string>
+	<string name="cool_tab_fragment_romantic">Aşk böcükleri</string>
+	<string name="cool_tab_fragment_angry">Öfkeli suratlar</string>
+	<string name="cool_tab_fragment_expressions">Binbir surat</string>
+	<string name="cool_tab_fragment_descriptive">Bak ne haldeyim!</string>
+	<string name="cool_tab_fragment_clothes">Giysiler</string>
+	<string name="cool_tab_fragment_looks">Görünümler</string>
+	<string name="cool_tab_fragment_busy">Meşgulüm</string>
+	<string name="cool_tab_fragment_leisure">Boş zaman etkinlikleri</string>
+	<string name="cool_tab_fragment_food">Tıkınmaca</string>
+	<string name="cool_tab_fragment_sport">Sportifler</string>
+	<string name="cool_tab_fragment_places">Mekanlar</string>
+	<string name="cool_tab_fragment_naughty">Yaramaz</string>
+	<string name="cool_tab_fragment_naughty_black">Yaramaz - Siyah</string>
+	<string name="cool_tab_fragment_naughty_asian">Yaramaz - Asyalı</string>
+	<string name="cool_tab_fragment_holidays">Noel, Cadılar Bayramı</string>
+	<string name="cool_tab_fragment_nationalities">Uluslar</string>
+	
+	<!-- Classic titles -->
+	<string name="classic_tab_fragment_smileys">Klasikler</string>
+	<string name="classic_tab_fragment_romantic">Aşk böcükleri</string>
+	<string name="classic_tab_fragment_gestures">El işaretleri</string>
+	<string name="classic_tab_fragment_food">Tıkınmaca</string>
+	<string name="classic_tab_fragment_sports">Hobiler</string>
+	<string name="classic_tab_fragment_communication">İletişim</string>
+	<string name="classic_tab_fragment_shopping">Alışveriş</string>
+	<string name="classic_tab_fragment_plants">Bitkiler</string>
+	<string name="classic_tab_fragment_animals">Hayvancıklar</string>
+	<string name="classic_tab_fragment_time_weather">Saat ve Hava durumu</string>
+	<string name="classic_tab_fragment_travel">Seyahat</string>
+	<string name="classic_tab_fragment_symbols">Semboller</string>
+	
+	<!-- Mine tab strings -->
+	<string name="mine_tab_empty_area">Henüz hiçbir emojiyi favorin olarak işaretlemedin. Herhangi bir emoji imajına basılı tut ve Favorilerine ekle.</string>
+	
+	<string name="loading">Yüklüyor</string>
+	
+	<string name="share_via">Şurada paylaş: </string>
+	<string name="made_in_emojidom">Made in \"Emojidom\" Android app</string>
+	
+	<!-- Main menu -->
+	<string name="menu_item_request_new">Yeni emoji talep et</string>
+	<string name="menu_item_tell_friends">Arkadaşlarına söyle!</string>
+	<string name="menu_item_rate_emojidom">Puan ver Emojidom</string>
+	<string name="menu_item_send_us_feedback">Bize geribildirim gönder</string>
+	
+	<!-- Menu item: Request new emoji -->
+	<string name="request_new_dialog_text">Emoji için harika bir fikrin mi var? Bize söyle yeter, belki bir sonraki güncellemede tüm dünyanın kullanması için senin emojin yer alabilir!</string>
+	<string name="request_new_dialog_cancel">İptal et</string>
+	<string name="request_new_dialog_ok">Tamam</string>
+	<string name="request_new_subject">Yeni emoji talebi</string>
+	<string name="request_new_text">... İçin bir emoji istiyorum</string>
+	
+	<!-- Menu item: Tell friends -->
+	<string name="tell_friends_subject">\"Emojidom\" Android uygulaması</string>
+	<string name="tell_friends_text">Merhaba, \n\nBu yepyeni Android uygulamasına bir göz at: Emojidom. Fotoğraf çek ve çektiğin fotoğrafları Facebook, Twitter, WhatsApp, e-posta ya da MMS iletilerinde ikon olarak kullan. Ya da 1200\'ün üzerinde havalı smiley içeren koleksiyonumuzdan bir ikon seç! \n\nVe eğer yeni bir emoji istersen, bir sonraki güncellemeye eklenmesi için talepte bulunabilirsin. Harika! \n\nDaha fazla bilgi al Android uygulaması: https://play.google.com/store/apps/details?id=com.plantpurple.emojidom</string>
+		
+	<!-- Menu item: Send us feedback -->
+	<string name="send_feedback_subject">Geribildirimimim: Emojidom</string>
+		
+	<string name="add_to_favourites">Favorilere ekle?</string>
+	<string name="remove_from_favourites">Favorilerden sil?</string>
+	<string name="already_in_favourites">Zaten Favorilerinde.</string>
+	
+	<string name="remove_from_mine">Buradan silinsin mi?</string>
+	<string name="save">Kaydet?</string>
+	
+	<string name="add_photo_icon">Bir fotoğraf ikonu ekle</string>
+	<string name="take_photo">Fotoğraf çek</string>
+	<string name="choose_photos">Fotoğrafları seç</string>
+	
+	<string name="type_something">Lütfen önce bir metin girin.</string>
+	
+	<string name="button_let_us_know">Yeni Emoji Paketi için bir fikrin mi var? \nBize söyle yeter!</string>
+	
+	<!-- Rating invitation -->
+	<string name="rating_invitation_caption">Emojidom\'u sevdin mi?</string>
+	<string name="rating_invitation_rate_emojidom">Puan ver Emojidom!</string>
+	<string name="rating_invitation_send_feedback">Bize geribildirim gönder</string>
+	<string name="rating_invitation_dont_show">Bir daha gösterme</string>
+	
+	<!-- In-app products strings -->
+	<string name="in_app_purchase_no_ads">Sıfır reklam, daha fazla metin alanı</string>
+	<string name="in_app_purchase_holidays">Noel, Cadılar Bayramı</string>
+	<string name="in_app_purchase_naughty">Yaramaz emoji</string>
+	<string name="in_app_purchase_naughty_black">Yaramaz emoji - Siyah</string>
+	<string name="in_app_purchase_naughty_asian">Yaramaz emoji - Asyalı</string>
+	<string name="in_app_purchase_nationalities">Uluslar</string>
+	<string name="in_app_purchase_more_coming_soon">Yakında daha fazlasını bulacaksın!</string>
+	
+	<string name="buy_button_text">Sadece</string>
+	
+	<!-- Side navigation panel -->
+	<string name="side_navigation_caption">Categories</string>
+	
+	<!-- Errors -->
+	<string name="error_image_from_gallery_not_added">Error: Image was not added from gallery.</string>
+	<string name="error_cropping_not_supported">Error: Images cropping on your device not supported.</string>
+	<string name="error_camera_access">Error: Camera access denied.</string>
+	<string name="error_purchase_failed">Error: Purchase failed.</string>
+	<string name="error_image_loading_failed">Error: Loading failed.</string>
+	<string name="error_no_internet">Internet connection not found.</string>
+	<string name="error_cant_restoring_purchase">Please check your internet connection and restart the app to activate all 
+		purchased in-app products.</string>
+	
+</resources>

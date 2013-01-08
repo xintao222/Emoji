@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@android:color/white">
+	
+	<RelativeLayout android:id="@+id/rlTopBar"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="10dp"
+    	android:background="@android:color/background_dark"> 
+    	
+		<RelativeLayout android:id="@+id/rlBack"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:background="@drawable/selector_top_button">
+			
+			<ImageView android:id="@+id/imgBack"
+	    		android:layout_width="30dp"
+	    		android:layout_height="wrap_content"
+	    		android:layout_alignParentLeft="true"
+	    		android:layout_centerVertical="true"
+	    		android:src="@drawable/navigation_previous_item" />
+			
+			<ImageView android:id="@+id/imgAppIcon"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_centerVertical="true"
+	    		android:layout_toRightOf="@id/imgBack"
+	    		android:src="@drawable/ic_launcher" />
+		
+		</RelativeLayout>
+    	
+    	<RelativeLayout android:id="@+id/rlMenu"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:layout_marginRight="8dp"
+    		android:paddingLeft="8dp"
+    		android:paddingRight="8dp"
+    		android:background="@drawable/selector_top_button">
+    		
+	    	<ImageView 
+		    	android:layout_width="48dp"
+		    	android:layout_height="48dp"
+		    	android:src="@drawable/action_tablet"/>
+    	</RelativeLayout>
+    	
+    </RelativeLayout>
+    
+	<RelativeLayout android:id="@+id/rlProduct"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/rlTopBar"
+		android:padding="4dp">
+    	
+		<ImageView android:id="@+id/imgProductImage"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:paddingBottom="4dp"
+			android:src="@drawable/classic100"/>
+	
+		<TextView android:id="@+id/tvProductName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_toRightOf="@id/imgProductImage"
+			android:layout_marginLeft="12dp"
+			android:textSize="16sp"
+			android:textColor="@android:color/primary_text_light"/>
+		
+		<RelativeLayout android:id="@+id/rlSeparator"
+			android:layout_width="fill_parent"
+			android:layout_height="2dp"
+			android:layout_below="@id/imgProductImage"
+			android:background="@android:color/darker_gray"/>
+		
+	</RelativeLayout>
+		
+	<RelativeLayout android:id="@+id/llGrid"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/rlProduct">
+		
+		<GridView android:id="@+id/gridSmiles"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:numColumns="6"
+			android:gravity="center_vertical|center_horizontal"
+			android:columnWidth="62dp"
+			android:horizontalSpacing="5dp"
+			android:verticalSpacing="5dp"/>
+	
+		<Button android:id="@+id/btnPurchase"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_below="@id/gridSmiles"
+			android:layout_marginTop="8dp"
+			android:layout_marginBottom="8dp"
+			android:paddingLeft="8dp"
+			android:paddingRight="8dp"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:text="@string/more_details"
+			android:background="@drawable/selector_purchase_button" />
+		
+	</RelativeLayout>
+
+	<ImageView
+		android:id="@+id/imgImage1"
+		android:layout_width="400dp"
+		android:layout_height="313dp"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:src="@drawable/no_ads_new"
+		android:visibility="gone" />
+
+</RelativeLayout>
