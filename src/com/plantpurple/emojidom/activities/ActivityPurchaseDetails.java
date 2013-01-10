@@ -82,6 +82,7 @@ public class ActivityPurchaseDetails extends RoboActivity implements OnClickList
 				if (!result.isSuccess()) {
 					// Oh noes, there was a problem.
 					Log.d(TAG, "Problem setting up In-app Billing: " + result);
+					return;
 				}
 
 				Log.d(TAG, "Setting up In-app Billing: " + result);
@@ -90,6 +91,7 @@ public class ActivityPurchaseDetails extends RoboActivity implements OnClickList
 				if (NetworkState.isConnected(ActivityPurchaseDetails.this)) {
 					List<String> additionalSkuList = new ArrayList<String>();
 					additionalSkuList.add(purchaseItem);
+					
 					mIAPsHelper.queryInventoryAsync(true, additionalSkuList, mQueryFinishedListener);
 				}
 			}

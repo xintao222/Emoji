@@ -58,7 +58,7 @@ import android.widget.TabHost.TabSpec;
 import android.widget.Toast;
 
 public class MainActivity extends RoboTabActivity implements OnClickListener, AdWhirlInterface {
-	private static final String TAG = "ActivityCool";
+	private static final String TAG = "MainActivity";
 	
 	@InjectView(R.id.main) RelativeLayout mMainLayout;
 	@InjectView(R.id.rlTopBar) RelativeLayout mTopBarLayout;
@@ -112,6 +112,8 @@ public class MainActivity extends RoboTabActivity implements OnClickListener, Ad
         
         factWidth = (int) getResources().getDimension(R.dimen.smile_width);
     	factHeight = (int) getResources().getDimension(R.dimen.smile_height);
+    	Log.d(TAG, "Smile width: " + factWidth);
+    	Log.d(TAG, "Smile height: " + factHeight);
         
         //initUI();
         
@@ -477,9 +479,8 @@ public class MainActivity extends RoboTabActivity implements OnClickListener, Ad
 		
 		// prepare size of image using 75% ratio
 		float ratio = 0.75f;
-		Log.d("My", "first: " + d.getIntrinsicWidth() + "x" + d.getIntrinsicHeight());
-		int width = (int)(d.getIntrinsicWidth() * ratio);
-		int height = (int)(d.getIntrinsicHeight() * ratio);
+		int width = (int)(factWidth * ratio);
+		int height = (int)(factHeight * ratio);
 		
 		d.setBounds(0, 0, width, height);
 		ImageSpan span = new ImageSpan(d, ImageSpan.ALIGN_BOTTOM);

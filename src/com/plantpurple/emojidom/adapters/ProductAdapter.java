@@ -62,6 +62,7 @@ public class ProductAdapter extends BaseAdapter {
 			holder = (ViewHolder)convertView.getTag();
 		
 		holder.image.setImageResource(products.get(position).getDrawableId());
+
 		holder.text.setText(products.get(position).getDetailsId());
 		
 		return convertView;
