@@ -128,7 +128,8 @@
 		    	android:textColor="#380EFF"
 		    	android:textSize="25sp"
 		    	android:background="#FFFFFF"
-		    	android:textCursorDrawable="@null"/>
+		    	android:textCursorDrawable="@null"
+		    	android:inputType="textMultiLine|textNoSuggestions"/>
     		
 		</RelativeLayout>
 

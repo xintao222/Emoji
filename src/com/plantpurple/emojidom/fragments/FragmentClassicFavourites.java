@@ -79,6 +79,7 @@ public class FragmentClassicFavourites extends BaseTitleFragment {
 			xmlBase = new XmlBase(Environment.getExternalStorageDirectory() + getString(R.string.xml_file_directory));
 		} catch (IOException e) {
 			Log.e(TAG, "Error: xml file with favourites not found");
+			return rootView;
 		}
 		
 		mAdapter = new ClassicFavouriteAdapter(getActivity());

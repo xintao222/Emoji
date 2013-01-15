@@ -1,5 +1,7 @@
 package com.plantpurple.emojidom.activities;
 
+import java.util.ArrayList;
+
 import com.adwhirl.AdWhirlLayout;
 import com.adwhirl.AdWhirlLayout.AdWhirlInterface;
 import com.adwhirl.AdWhirlManager;
@@ -138,8 +140,9 @@ public class MainActivity extends RoboTabActivity implements OnClickListener, Ad
         
         progressDialog = new ProgressDialog(this);
 		progressDialog.setMessage(getString(R.string.loading));
+		progressDialog.show();
         
-        // restore transaction
+        // restore transaction 
 		// init IAPs library components
 		mIAPsHelper = new IabHelper(this, Purchases.BASE64_ENCODED_PUBLIC_KEY);
 		mIAPsHelper.startSetup(new IabHelper.OnIabSetupFinishedListener() {
@@ -176,21 +179,36 @@ public class MainActivity extends RoboTabActivity implements OnClickListener, Ad
     private void initUI() {
     	mTabHost = getTabHost();
     	
-    	// add tabs
-    	mTabHost.addTab(createTab(TAB_TAG_KEYBOARD, R.layout.tab_indicator_keyboard, 
+    	ArrayList<TabSpec> tabs = new ArrayList<TabSpec>();
+    	if (tabs.size() != 0)
+    		tabs.clear();
+    	
+    	tabs.add(createTab(TAB_TAG_KEYBOARD, R.layout.tab_indicator_keyboard, 
     			R.drawable.tab_keyboard, R.id.rlKeyboard));
-    	mTabHost.addTab(createTab(TAB_TAG_MINE, R.layout.tab_indicator_camera, 
+    	tabs.add(createTab(TAB_TAG_MINE, R.layout.tab_indicator_camera, 
     			R.drawable.tab_camera, new Intent(this, ActivityMine.class)));
-    	mTabHost.addTab(createTab(TAB_TAG_COOL, R.layout.tab_indicator_cool, 
+    	tabs.add(createTab(TAB_TAG_COOL, R.layout.tab_indicator_cool, 
     			R.drawable.tab_cool, new Intent(this, ActivityCool.class)));
-    	mTabHost.addTab(createTab(TAB_TAG_CLASSIC, R.layout.tab_indicator_classic, 
+    	tabs.add(createTab(TAB_TAG_CLASSIC, R.layout.tab_indicator_classic, 
     			R.drawable.tab_classic, new Intent(this, ActivityClassic.class)));
-    	mTabHost.addTab(createTab(TAB_TAG_MORE, R.layout.tab_indicator_more, 
+    	tabs.add(createTab(TAB_TAG_MORE, R.layout.tab_indicator_more, 
     			R.drawable.tab_more, R.id.rlKeyboard));
+    	
+    	if (mTabHost.getChildCount() != 0) {
+    		//mTabHost.setCurrentTab(0);
+    		mTabHost.clearAllTabs();
+    		Log.d(TAG, "TabHost not empty!!!");
+    	}
+    	
+    	// add tabs
+    	for (TabSpec tab:tabs)
+    		mTabHost.addTab(tab);
     	
     	mTabHost.setCurrentTabByTag(TAB_TAG_COOL);
     	
     	mTabHost.setOnTabChangedListener(mTabChangeListaner);
+    	
+    	progressDialog.dismiss();
     }
     
     @Override
@@ -605,8 +623,7 @@ public class MainActivity extends RoboTabActivity implements OnClickListener, Ad
 
 		protected void onPreExecute() {
 			super.onPreExecute();
-			
-			progressDialog.show();
+
 		};
 
 		@Override
@@ -625,8 +642,6 @@ public class MainActivity extends RoboTabActivity implements OnClickListener, Ad
 		@Override
 		protected void onPostExecute(Inventory inventory) {
 			super.onPostExecute(inventory);
-			
-			progressDialog.dismiss();
 			
 			if (inventory != null) {
 				Log.i(TAG, "Inventory loading success!");

@@ -22,7 +22,6 @@ import android.support.v4.view.PagerTabStrip;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.Log;
-import android.widget.Toast;
 
 public class ActivityCool extends FragmentActivity implements OnMyFragmentEventListener { 
 	private static final String TAG = "ActivityCool";

@@ -208,7 +208,16 @@ public class ActivityPurchaseDetails extends RoboActivity implements OnClickList
 	}
 	
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-		super.onActivityResult(requestCode, resultCode, data);
+		// Pass on the activity result to the helper for handling
+	    if (!mIAPsHelper.handleActivityResult(requestCode, resultCode, data)) {
+	        // not handled, so handle it ourselves (here's where you'd
+	        // perform any handling of activity results not related to in-app
+	        // billing...
+	        super.onActivityResult(requestCode, resultCode, data);
+	    }
+	    else {
+	        Log.d(TAG, "onActivityResult handled by IABUtil.");
+	    }
 		
 		Log.d(TAG, "Request: " + requestCode);
 		Log.d(TAG, "Result: " + resultCode);
@@ -282,41 +291,17 @@ public class ActivityPurchaseDetails extends RoboActivity implements OnClickList
 	
 	IabHelper.OnIabPurchaseFinishedListener mPurchaseFinishedListener = new IabHelper.OnIabPurchaseFinishedListener() {
 		public void onIabPurchaseFinished(IabResult result, Purchase purchase) {
-			//Intent intent = new Intent();
-			//intent.putExtra(ActivityMore.PARAM_PURCHASE_ITEM, purchase.getSku());
-			
 			Log.d(TAG, "Purchase query is finished");
 
 			// error, send fail result to previous activity
 			if (result.isFailure()) {
 				Log.d(TAG, "Error purchasing: " + result);
 				
-				setResult(ActivityMore.RESULT_PURCHASE_FAIL);
-				finish();
+				//setResult(ActivityMore.RESULT_PURCHASE_FAIL);
+				//finish();
 				
 				return;
 			} 
-			/*else if (purchase.getSku().equals(Purchases.NO_ADS)) {
-				Preference.setPurchase(Purchases.NO_ADS, true);
-			} 
-			else if (purchase.getSku().equals(Purchases.HOLIDAYS)) {
-				Preference.setPurchase(Purchases.HOLIDAYS, true);
-			} 
-			else if (purchase.getSku().equals(Purchases.NAUGHTY_WHITE)) {
-				Preference.setPurchase(Purchases.NAUGHTY_WHITE, true);
-			} 
-			else if (purchase.getSku().equals(Purchases.NAUGHTY_BLACK)) {
-				Preference.setPurchase(Purchases.NAUGHTY_BLACK, true);
-			} 
-			else if (purchase.getSku().equals(Purchases.NAUGHTY_ASIAN)) {
-				Preference.setPurchase(Purchases.NAUGHTY_ASIAN, true);
-			} 
-			else if (purchase.getSku().equals(Purchases.NATIONALITIES)) {
-				Preference.setPurchase(Purchases.NATIONALITIES, true);
-			}
-
-			setResult(ActivityMore.RESULT_PURCHASE_SUCCESS, intent);
-			finish();*/
 		}
 	};
 	
@@ -333,12 +318,34 @@ public class ActivityPurchaseDetails extends RoboActivity implements OnClickList
 			Log.d(TAG, "Item: " + purchaseItem + ", price: " + itemPrice);
 			
 			String language = Locale.getDefault().getLanguage();
+			String country = Locale.getDefault().getCountry();
 			
+			Log.d(TAG, "Country: " + country);
 			Log.i(TAG, "Language: " + language);
-			if (language.equals("ko") || language.equals("ja"))
-				mPurchaseButton.setText(itemPrice + " " + getString(R.string.buy_button_text));
-			else
-				mPurchaseButton.setText(getString(R.string.buy_button_text) + " " + itemPrice);
+			
+			boolean isCountryInArray = false;
+			for (String countryCode:COUNTRIES) {
+				if (countryCode.equals(country)) {
+					isCountryInArray = true;
+					break;
+				}
+			}
+			
+			if (isCountryInArray) {
+				// check for Korean and Japanese language
+				if (language.equals("ko") || language.equals("ja"))
+					mPurchaseButton.setText(itemPrice + " " + getString(R.string.buy_button_text));
+				else
+					mPurchaseButton.setText(getString(R.string.buy_button_text) + " " + itemPrice);
+			} else
+				mPurchaseButton.setText(R.string.more_details);
 		}
 	};
+	
+	// Country array for showing currency for them. If user country is not in this array,
+	// then we will show "More details" text on the BuyButton...
+	private static final String[] COUNTRIES = { "AU", "AT", "BE", "BR", "CA",
+			"CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HK", "IN", "IE", "IL",
+			"IT", "JP", "LU", "MX", "NL", "NZ", "NO", "PL", "PT", "RU", "SG",
+			"SK", "SI", "KR", "ES", "SE", "CH", "GB", "US" };
 }
